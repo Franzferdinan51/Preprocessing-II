@@ -109,11 +109,39 @@
 }
 }
 .destination{
+  display: flex;
+  flex-direction: column;
+}
   @media @phone {
     display: flex;
-    flex-direction: wrap;
+    flex-wrap: wrap;
     flex-direction: column;
-    width: 100%;
+   
+    justify-content: center;
+    padding-left: 50%;
     
   }
+
+.content-section{
+  display: flexbox;
 }
+
+  @media @phone {
+    padding-top: 105%;
+    justify-content: center;
+   padding-left: 100%;
+     flex-direction: column;
+  }
+
+.content-section .inverse-content{
+  justify-content: center;
+}
+
+
+  @media @phone {
+    justify-content: center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+
+}
+
