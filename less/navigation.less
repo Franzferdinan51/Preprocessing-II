@@ -1,1 +1,29 @@
 // Navigation Styles here
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    .borderbottom();
+    font-size: 15px;
+    @media @phone{
+        border: 1px solid red;
+        width: 100%;
+        flex-wrap: wrap;
+        
+    }
+    a{
+       display: flex;
+       text-decoration: none;
+       .margin();
+      
+       @media @phone{
+        border: 1px solid green;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+        
+    
+    }
+
+    }
+}

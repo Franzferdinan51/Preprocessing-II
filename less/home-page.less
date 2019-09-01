@@ -59,3 +59,51 @@
     }
   }
 }// home
+
+.funbus{
+  display: flex;
+  margin-left: 7rem;
+  margin-top: 1rem;
+  
+  
+}
+.funbus-text{
+  display: inline-flexbox;
+  .margin();
+  
+  .borderbottom();
+}
+
+.btn{
+  display: flex;
+  
+  border:1px solid black;
+  width: 10rem;
+  border-radius: 4px;
+  margin-top: 14px;
+  background: teal;
+  color: white;
+  font-size: 14px;
+  justify-content:center;
+  height: 2rem;
+
+  
+}
+.container-main{
+ @media @phone{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+  
+ }
+}
+.content-pick{
+  display: flex;
+  @media @phone{
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+  }
+}
